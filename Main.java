@@ -13,7 +13,50 @@ public class Main {
     public static void main(String[] args) {
         // Preloading some vocabulary
 
-        //translations using a Hashmap here (should be there in a moment)
+        vocabularies.put("gehen", "ir");
+        vocabularies.put("Sommer", "verano");
+        vocabularies.put("Geschichte", "historia");
+        vocabularies.put("Landschaft", "paisaje");
+        vocabularies.put("können", "poder");
+        vocabularies.put("Arbenteuer", "aventura");
+        vocabularies.put("Natur", "naturaleza");
+        vocabularies.put("Utensilien", "utensilios");
+        vocabularies.put("Burg", "castillio");
+        vocabularies.put("Sonne", "sol");
+        vocabularies.put("invierno", "Winter");
+        vocabularies.put("wandern", "caminata");
+        vocabularies.put("Meer", "mar");
+        vocabularies.put("See", "lago");
+        vocabularies.put("Fluss", "río");
+        vocabularies.put("sitzen", "sentarse"); //not sure
+        vocabularies.put("Brücke", "Puente");
+        vocabularies.put("Himmel", "Cielo");
+        vocabularies.put("Hafen", "Puerto");
+        vocabularies.put("lachen", "reír");
+        vocabularies.put("Strand", "playa");
+        vocabularies.put("Stadt", "ciudad");
+        vocabularies.put("Berg", "montaña");
+        vocabularies.put("Auto", "auto");
+        vocabularies.put("Bus", "autobús");
+        vocabularies.put("machen", "hacer");
+        vocabularies.put("Baum", "arból");
+        vocabularies.put("historische Stadt", "ciudad historia");
+
+        vocabularies.put("warmes Wetter", "clima calor");
+        vocabularies.put("kaltes Wetter", "clima frío");
+        vocabularies.put("Wolke", "nube");
+        vocabularies.put("repräsentieren", "representan");
+        vocabularies.put("Stimmung", "ambiente");
+        vocabularies.put("Wald", "bosque");
+        vocabularies.put("Sportkleidung", "ropa deportiva");
+        vocabularies.put("Tisch", "mesa");
+        vocabularies.put("Stuhl", "silla");
+        vocabularies.put("Zeit mit Freunden verbringen", "Pasar tiempo con amigos");
+        vocabularies.put("Spaß", "Diversión");
+        vocabularies.put("Getränk", "Bebida");
+        vocabularies.put("Essen", "comida");
+        vocabularies.put("Weg", "camino");
+        vocabularies.put("Schiff", "barco");
 
         // Create the main JFrame
         JFrame frame = new JFrame("Vocabulary Learning App");
