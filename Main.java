@@ -12,7 +12,8 @@ public class Main {
 
     public static void main(String[] args) {
         // Preloading some vocabulary
-        
+
+        //translations using a Hashmap here (should be there in a moment)
 
         // Create the main JFrame
         JFrame frame = new JFrame("Vocabulary Learning App");
